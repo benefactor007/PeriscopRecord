@@ -1,0 +1,9 @@
+[36;1mCOQOS Hypervisor Core Thu, 09 Sep 2021 14:25:33 +0200+1632449240[m (#2)
+
+git revision: opsy-snapshot/e0789-20210909.142442-1-0-gc1cc7bd
+Parameter file size: 13277 bytes
+got pstate level as  0
+Scheduling timeslice is 10000 microseconds
+HV tracing is disabled.
+Core 2 up, affinity-mask 0x0002.
+XCPU post: sgi irq

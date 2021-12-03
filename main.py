@@ -43,9 +43,15 @@ def setLogFile():
         return False
 
 
-def setLogDirectory(dirName: str) -> bool:
+def setLogDirectory(dirName: str) -> bool:         # create the file, and return True when file created successfully.
     os.system("sudo mkdir " + dirName)
     return os.path.isdir(getCurrentPWD() + "/" + dirName)
+
+
+def get_num_of_same_files(fileName: str) -> list:
+    p1 = re.findall()
+    L = []
+    return L
 
 
 def getCurrentPWD() -> str:
@@ -65,6 +71,7 @@ def main1():
 
 def main2():
     scanQR = input("Please scan the QR image:")
+    # New
     # if os.path.isdir(pwd.strip() + '/' + catFazitInfo(scanQR)):
     if setLogDirectory(catFazitInfo(scanQR)):
         print(greenFont("PASS"))
